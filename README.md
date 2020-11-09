@@ -37,5 +37,11 @@ In the root directory as well, run the following :
 * Trello
 * Heroku
 
+## :open_book: Todo/Future features?!
+- [x] Pokémons List Page
+- [ ] Pokémon Details Page
+- [ ] Load More/Pagination
+- [ ] Search Functionality
+
 ## :memo: License
 [MIT](https://opensource.org/licenses/MIT)
