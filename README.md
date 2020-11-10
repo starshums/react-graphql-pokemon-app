@@ -8,6 +8,8 @@ The GraphQL API used is a GraphQL implementation of pokeapi.co, more information
 
 [Pokémon GraphQL Repository](https://github.com/mazipan/graphql-pokeapi)
 
+[Pokémon API](https://pokeapi.co/)
+
 # :globe_with_meridians: Demo
 This application is hosted on Heroku :
 [Live Demo](https://polar-river-61346.herokuapp.com/)
