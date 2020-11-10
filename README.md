@@ -10,7 +10,7 @@ The GraphQL API used is a GraphQL implementation of pokeapi.co, more information
 
 # :globe_with_meridians: Demo
 This application is hosted on Heroku :
-[Live Demo](https://github.com/starshums/react-graphql-pokemon-app) (coming soon)
+[Live Demo](https://polar-river-61346.herokuapp.com/)
 
 # :framed_picture: Screenshot
 ![Pokémons](https://i.imgur.com/oskGrGP.png)
