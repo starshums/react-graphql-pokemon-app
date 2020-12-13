@@ -1,5 +1,5 @@
 import React from "react";
-import gql from "graphql-tag";
+import { gql } from '@apollo/client';
 
 export const GET_POKEMONS = gql`
   query pokemons($limit: Int, $offset: Int) {
@@ -15,6 +15,32 @@ export const GET_POKEMONS = gql`
         url
         image
       }
+    }
+  }
+`;
+
+export const GET_POKEMON = gql`
+  query pokemon($name: String!) {
+    pokemon(name: $name) {
+      id
+      name
+      abilities {
+        ability {
+          name
+        }
+      }
+      moves {
+        move {
+          name
+        }
+      }
+      types {
+        type {
+          name
+        }
+      }
+      message
+      status
     }
   }
 `;
