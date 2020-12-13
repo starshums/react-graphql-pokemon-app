@@ -36,12 +36,13 @@ In the root directory as well, run the following :
 * Tailwind CSS
 * Nginx
 * Git
+* Gitflow Workflow
 * Trello
 * Heroku
 
 ## :open_book: Todo/Future features?!
 - [x] Pokémons List Page
-- [ ] Pokémon Details Page
+- [x] Pokémon Details Page
 - [ ] Load More/Pagination
 - [ ] Search Functionality
 
