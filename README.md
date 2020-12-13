@@ -14,8 +14,11 @@ The GraphQL API used is a GraphQL implementation of pokeapi.co, more information
 This application is hosted on Heroku :
 [Live Demo](https://polar-river-61346.herokuapp.com/)
 
-# :framed_picture: Screenshot
-![Pokémons](https://i.imgur.com/oskGrGP.png)
+# :framed_picture: Screenshots
+## /pokemons
+![Pokémons](https://i.imgur.com/Sia3pc7.png)
+## /pokemon/blastoise
+![Detail](https://i.imgur.com/3mDgooC.png)
 
 # :repeat: Developement
 In the root directory run this command :
