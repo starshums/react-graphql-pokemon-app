@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# :clipboard: React + Docker + GraphQL Pokémon Application!
+[in_dev :hammer_and_wrench:] This is a react application that shows a list of Pokémons, made by consuming a GraphQL Pokémon API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# :round_pushpin: Pokémon GraphQL API Used :
+The GraphQL API used is a GraphQL implementation of pokeapi.co, more information can be found here :
 
-## Available Scripts
+[GraphQL Playground](https://mazipan-gql-pokeapi.herokuapp.com/graphql)
 
-In the project directory, you can run:
+[Pokémon GraphQL Repository](https://github.com/mazipan/graphql-pokeapi)
 
-### `npm start`
+[Pokémon API](https://pokeapi.co/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# :globe_with_meridians: Demo
+This application is hosted on Heroku :
+[Live Demo](https://polar-river-61346.herokuapp.com/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# :framed_picture: Screenshot
+![Pokémons](https://i.imgur.com/oskGrGP.png)
 
-### `npm test`
+# :repeat: Developement
+In the root directory run this command :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+``` docker-compose up --build ```
 
-### `npm run build`
+# :repeat_one: Production
+In the root directory as well, run the following :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+``` docker-compose -f docker-compose.prod.yml  up --build ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# :computer: Technologies Used
+* React
+* GraphQL
+* Apollo Client
+* Docker
+* Docker Compose
+* Tailwind CSS
+* Nginx
+* Git
+* Trello
+* Heroku
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :open_book: Todo/Future features?!
+- [x] Pokémons List Page
+- [ ] Pokémon Details Page
+- [ ] Load More/Pagination
+- [ ] Search Functionality
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## :memo: License
+[MIT](https://opensource.org/licenses/MIT)
