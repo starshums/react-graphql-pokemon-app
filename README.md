@@ -30,24 +30,17 @@ In the root directory as well, run the following :
 
 ``` docker-compose -f docker-compose.prod.yml  up --build ```
 
-# :computer: Technologies Used
-* React
-* GraphQL
-* Apollo Client
-* Docker
-* Docker Compose
-* Tailwind CSS
-* Nginx
-* Git
-* Gitflow Workflow
-* Trello
-* Heroku
-
 ## :open_book: Todo/Future features?!
 - [x] Pokémons List Page
 - [x] Pokémon Details Page
 - [ ] Load More/Pagination
 - [ ] Search Functionality
+
+# :computer: Technologies Used
+* React, GraphQL, Apollo Client, Tailwind CSS
+* Docker, Docker Compose, Nginx
+* Git, Gitflow Workflow
+* Trello, Heroku
 
 ## :memo: License
 [MIT](https://opensource.org/licenses/MIT)
