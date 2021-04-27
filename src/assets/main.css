@@ -512,6 +512,10 @@ img {
   align-items: center;
 }
 
+.self-center {
+  align-self: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -685,6 +689,10 @@ img {
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
 .transition {
