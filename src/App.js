@@ -1,7 +1,7 @@
 import React from "react";
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 
-import { Routes } from "./Routes";
+import { Routes } from "./routes";
 
 function App() {
   const client = new ApolloClient({
@@ -21,7 +21,7 @@ function App() {
             viewBox="0 0 54 54"
           />
           <span className="font-semibold text-xl tracking-tight">
-            <a href="/pokemons">Pokémon, Gotta Catch 'em All !</a>
+            <a href="/pokemon">Pokémon, Gotta Catch 'em All !</a>
           </span>
         </div>
       </nav>
