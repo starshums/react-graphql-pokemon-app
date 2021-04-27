@@ -33,7 +33,7 @@ In the root directory as well, run the following :
 ## :open_book: Todo/Future features?!
 - [x] Pokémons List Page
 - [x] Pokémon Details Page
-- [ ] Load More/Pagination
+- [x] Load More/Pagination
 - [ ] Search Functionality
 
 # :computer: Technologies Used
