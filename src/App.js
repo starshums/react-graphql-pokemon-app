@@ -1,7 +1,7 @@
 import React from "react";
 import { ApolloClient, ApolloProvider, InMemoryCache } from "@apollo/client";
 
-import { Routes } from "./routes/index";
+import { Routes } from "./Routes"
 
 function App() {
   const client = new ApolloClient({
